@@ -13,12 +13,11 @@ function renderLeads() {
     let listItems = ""
     for (let i = 0; i < myLeads.length; i++) {
         // listItems += "<li><a href = '" + myLeads[i] + "' target = '_blank'>" + myLeads[i] + "</a></li>"
-        listItems += `
-            <li>
-                <a href = '${myLeads[i]}' target = '_blank'>
-                    ${myLeads[i]}
-                </a>
-            </li>`
+        listItems += `<li>
+                        <a href = '${myLeads[i]}' target = '_blank'>
+                            ${myLeads[i]}
+                        </a>
+                    </li>`
     // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
     // const li = document.createElement("li")
     // li.textContent = myLeads[i]
